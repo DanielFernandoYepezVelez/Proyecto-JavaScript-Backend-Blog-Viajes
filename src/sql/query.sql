@@ -1,0 +1,1 @@
+/* Necesito Crear El Query Nuevamente, Pero Ya Tengo La Base De Datos De Forma Local */

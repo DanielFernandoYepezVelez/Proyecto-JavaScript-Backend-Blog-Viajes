@@ -6,7 +6,6 @@ import morgan from 'morgan';
 import cors from 'cors';
 import path from 'path';
 
-
 /* Routes All */
 import routes from './routes/routes.js';
 

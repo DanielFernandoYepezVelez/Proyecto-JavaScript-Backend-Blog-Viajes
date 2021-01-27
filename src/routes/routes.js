@@ -14,6 +14,6 @@ router
     .get('/nosotros', nosotrosController)
     .get('/viajes/:viajeId', viajeDetalleController)
     .get('/viajes', viajesController)
-    .get('/testimoniales', testimonialesController)
+    .post('/testimonial', testimonialesController)
 
 export default router;

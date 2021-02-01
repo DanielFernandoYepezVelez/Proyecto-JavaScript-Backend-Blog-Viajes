@@ -10,9 +10,6 @@ const testimonialesController = async(req, res) => {
         return res.status(400).json({ ok: false, error: e });
     }
 
-
-
-
     console.log('Correcto');
     res.send('hola mundo');
 }

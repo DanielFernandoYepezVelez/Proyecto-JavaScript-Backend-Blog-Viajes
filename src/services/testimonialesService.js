@@ -5,7 +5,7 @@ const testimonialService = async({ name, email, message }) => {
         throw new Error('Todos Los Campos Son Requeridos').message;
     }
 
-    const [rows, fields] = await pool.query('INSERT INTO tasks SET ?', [name, email, message]);
+    const [rows, fields] = await pool.query('INSERT INTO users (name, email, message) VALUES (?, ?, ?)', [name, email, message]);
     console.log([rows, fields]);
 
     // return rows;
